@@ -1,7 +1,13 @@
+body {
+    background-color: black;
+}
+
 .container {
     display: grid;
-
+    background-color: white;
     grid-template-columns: repeat(12, 1fr);
+    width: 65vw;
+    margin: 0 auto;
 }
 
 /* SMARTPHONE */
