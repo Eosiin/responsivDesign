@@ -6,6 +6,7 @@ body {
     display: grid;
     background-color: white;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 27vh 27vh 27vh 21vh;
     width: 65vw;
     margin: 0 auto;
 }
@@ -32,6 +33,7 @@ body {
     height: 100%;
     width: auto;
 }
+
 
 
 
