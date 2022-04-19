@@ -6,7 +6,7 @@ body {
     display: grid;
     background-color: white;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 27vh 27vh 27vh 21vh;
+    grid-template-rows: 27vh 27vh 27vh 19vh;
     width: 65vw;
     margin: 0 auto;
 }
@@ -14,9 +14,10 @@ body {
 /* SMARTPHONE */
 .smartphone {
     grid-column: 1/span 6;
+    grid-row: 1/2;
     display: flex;
-    height: 10rem;
-    border: 1px solid black;
+    background-color: white;
+
 }
 
 .smartphone .text .title {
@@ -35,46 +36,60 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .chemical {
     grid-column: 7/span 6;
-    height: 10rem;
-    border: 1px solid red;
+    grid-row: 1/2;
+    background-color: #F7F8F9;
+
+}
+
+.keyboard {
+    grid-column: 1/span 3;
+    grid-row: 2/3;
+    background-color: #f05638;
+}
+
+.oldComputer {
+    grid-column: 4/span 6;
+    grid-row: 2/3;
+    background-color: white;
+
+}
+
+.disk {
+    grid-column: 10/span 3;
+    grid-row: 2/4;
+    background-color: #8166b0;
+}
+
+.gameController {
+    grid-column: 1/span 3;
+    grid-row: 3/4;
+    background-color: white;
+
+}
+
+.laptop {
+    grid-column: 4/span 6;
+    grid-row: 3/4;
+    background-color: #93B6B7;
+}
+
+.yellowTwitter {
+    grid-column: 1/span 3;
+    grid-row: 4/5;
+    background-color: #38d5f4;
+}
+
+.popular {
+    grid-column: 4/span 3;
+    grid-row: 4/5;
+    background-color: white;
+
+}
+
+.tv {
+    grid-column: 7/span 6;
+    grid-row: 4/5;
+    background-color: #2c2c2c;
 }
