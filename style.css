@@ -16,10 +16,16 @@ body {
     grid-column: 1/span 6;
     grid-row: 1/2;
     display: flex;
+    justify-content: space-evenly;
     background-color: white;
 
 }
-
+.smartphone .text {
+    border: 1px solid black;
+}
+.smartphone .picture {
+    border: 1px solid black;
+}
 .smartphone .text .title {
     color: gray;
 
