@@ -22,9 +22,13 @@ body {
 }
 .smartphone .text {
     border: 1px solid black;
+    width: 33%;
+    padding: 1rem;
+    font-size: 0.8rem;
 }
 .smartphone .picture {
     border: 1px solid black;
+    width: 45%;
 }
 .smartphone .text .title {
     color: gray;
@@ -39,20 +43,55 @@ body {
 .smartphone .picture img {
     height: 100%;
     width: auto;
+    margin: 0 auto;
+    display: block;
 }
 
-
+/* CHEMICAL */
 .chemical {
     grid-column: 7/span 6;
     grid-row: 1/2;
     background-color: #F7F8F9;
+    width: 100%;
+    margin: 0 auto;
 
 }
+.chemical .title {
+    color: gray;
+    font-size: 0.8rem;
+}
 
+.chemical .text {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.download {
+    color: #38d5f4;
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+
+/* KEYBOARD */
 .keyboard {
     grid-column: 1/span 3;
     grid-row: 2/3;
     background-color: #f05638;
+    display: block;
+}
+.keyboard .picture img {
+    height: 50%;
+    width: auto;
+    margin: 0 auto;
+    
+}
+.keyboard .text {
+    color: white;
+    
+}
+
+.learn {
+    color: yellow;
 }
 
 .oldComputer {
