@@ -20,16 +20,19 @@ body {
     background-color: white;
 
 }
+
 .smartphone .text {
-    border: 1px solid black;
+
     width: 33%;
     padding: 1rem;
     font-size: 0.8rem;
 }
+
 .smartphone .picture {
-    border: 1px solid black;
+
     width: 45%;
 }
+
 .smartphone .text .title {
     color: gray;
 
@@ -56,6 +59,7 @@ body {
     margin: 0 auto;
 
 }
+
 .chemical .title {
     color: gray;
     font-size: 0.8rem;
@@ -65,6 +69,7 @@ body {
     font-size: 1.5rem;
     text-align: center;
 }
+
 .download {
     color: #38d5f4;
     text-decoration: underline;
@@ -77,28 +82,50 @@ body {
     grid-column: 1/span 3;
     grid-row: 2/3;
     background-color: #f05638;
-    display: block;
+
+
 }
+
+.keyboard .picture {
+    text-align: center;
+}
+
 .keyboard .picture img {
-    height: 50%;
-    width: auto;
-    margin: 0 auto;
-    
+    height: auto;
+    width: 75%;
+
 }
+
+
 .keyboard .text {
     color: white;
-    
+    font-size: 0.6rem;
+    text-align: center;
+
+
 }
 
 .learn {
     color: yellow;
+    font-size: 0.3rem;
+    text-align: center;
 }
 
+/* OLD COMPUTER  */
 .oldComputer {
     grid-column: 4/span 6;
     grid-row: 2/3;
     background-color: white;
 
+}
+.oldComputer .picture img{
+
+}
+.oldComputer .picture{
+
+}
+.oldComputer .text{
+    
 }
 
 .disk {
